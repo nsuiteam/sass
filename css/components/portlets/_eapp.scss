@@ -1,0 +1,141 @@
+
+.e-control-radio, .e-control-menu{
+	background-color:$primary-bg;
+}
+
+.e-control-checkbox{
+	@extend .ui-area-btn;
+	background-color:$primary-bg;
+}
+
+
+@media only screen and (min-width: 1025px){
+	.ui-dialog {
+		left: 45% !important;
+		position: fixed !important;
+		top: 50% !important;
+		width: 15%!important;
+	}
+}
+
+
+.eApplication-portlet .ui-state-hover {
+   @extend .ui-state-hover;
+    background-image: none;
+    border: 1px solid #fff;
+}
+
+
+.eApplication-portlet .ui-radiobutton-box {
+    border: 1px solid #e69700 !important;
+    background-image: none !important;
+    background-color: #e69700 !important;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+/* Buttons Extended to standar colors */
+
+.eApplication-portlet .ui-area-btn-primary {
+    @extend .ui-area-btn-primary;
+}
+.eApplication-portlet .ui-area-btn-secondry {
+    @extend .ui-area-btn-secondry;
+}
+
+.eApplication-portlet .ui-area-btn-danger {
+	@extend .ui-area-btn-danger;
+}
+
+.eApplication-portlet .ui-area-btn-warning{
+	@extend .ui-area-btn-warning;
+}
+
+.eApplication-portlet .ui-area-btn-success{
+	@extend .ui-area-btn;
+	background-color:$primary-bg !important;
+	margin: 0 10px;
+}
+
+.eApplication-portlet .ui-area-btn-inverse {
+    @extend .ui-area-btn-inverse;
+}
+
+.eApplication-portlet .ui-area-btn-info {
+	@extend .ui-area-btn-info;
+}
+
+.eApplication-portlet .ui-area-btn-print {
+	@extend .ui-area-btn-print;
+}
+
+.eApplication-portlet .ui-area-btn-next {
+	@extend .ui-area-btn-next;
+}
+
+.eApplication-portlet .ui-area-btn-previous {
+	@extend .ui-area-btn-previous;
+}
+
+.eApplication-portlet .ui-area-btn:hover {
+   @extend .ui-area-btn:hover;
+}
+
+
+
+@media (min-width: 641px){
+.hasDatepicker {
+    width: auto !important;
+}
+}
+
+
+.ui-state-active .ui-icon {
+	border: 1px solid #e69700!important;
+    /* background-image: none!important; */
+    background-color: #e69700!important;
+    color: #fff !important;
+    border-radius: 50px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.ui-icon-bullet {
+    background-position: -81px -145px !important;
+}
+
+.eApplication-portlet .ui-chkbox-label{
+	color: $label-fontColor;
+}
+
+.eApplication-portlet .ui-chkbox-icon{
+	background-color: $primary-bg;
+}
+
+.eApplication-portlet .ui-button-icon-only {
+    background-image: none !important;
+    border: 1px solid #eee !important;
+    background-color: #fff !important;
+}
+
+
+.eApplication-portlet .ui-state-hover {
+	color: #4e4e4e;
+}
+
+
+.eApplication-portlet .ui-state-focus {
+	background-image: none !important;
+}
+
+
+
+.ui-radiobutton .ui-radiobutton-box {
+  -moz-border-radius: 10px !Important;
+  -webkit-border-radius: 10px !important;
+  border-radius: 10px !important;
+
+
+}

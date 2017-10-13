@@ -1,90 +1,31 @@
-.ui-area-btn-primary {
+.ui-area-btn-primary{
     background-color: $primary-bg !important;
     color: $Light-fontColor !important;
-    text-decoration: none !important;
-}
 .ui-area-btn-primary:hover {
-    background-color:$color-primary-light !important;
-     color: $dark-fontColor !important;
 }
-.ui-area-btn-secondry {
+.ui-area-btn-secondry{
     background-color:$secondry-bg !important;
      color: $Light-fontColor !important;
 }
-.ui-area-btn-secondry:hover {
-    background-color:$color-primary-light !important;
-     color: $dark-fontColor !important;
+.ui-area-btn-danger{
+    background-color: $danger-bg !important;
+     color: $Light-fontColor !important;
 }
-.ui-area-btn-previous {
-    background-color: $nextx-previous-bg !important;
-    color: $dark-fontColor !important;
-}
-.ui-area-btn-previous:hover {
-    background-color: $color-primary-lighter !important;
-    color: $dark-fontColor !important;
-}
-.ui-area-btn-statement {
-    background-color: $color-primary-light !important;
-    color: $dark-fontColor !important;
-}
-.ui-area-btn-statement:hover {
-    background-color: $statement-bg !important;
-    color: $Light-fontColor !important;
-}
-.ui-area-btn-statement-active {
-    background-color: $statement-active !important;
-    color: $Light-fontColor !important;
-}
-.ui-area-btn-next {
-    background-color:$nextx-previous-bg !important;
-    color: $dark-fontColor !important;
-}
-.ui-area-btn-next:hover {
-    background-color: $color-primary-lighter !important;
-    color: $dark-fontColor !important;
+.ui-area-btn-warning{
+    background-color: $warning-bg !important;
+     color: $Light-fontColor !important;
 }
 .ui-area-btn-success {
     background-color: $success-bg !important;
     color: $Light-fontColor !important;
 }
-.ui-area-btn-success:hover {
-    background-color: $success-bg-hover !important;
-    color: $Light-fontColor !important;
-}
-
-.ui-area-btn-danger {
-    background-color: $danger-bg !important;
-     color: $Light-fontColor !important;
-}
-.ui-area-btn-danger:hover {
-    background-color: $danger-bg-hover !important;
-     color: $Light-fontColor !important;
-}
-.ui-area-btn-make-payment {
-    background-color: $makepayment-bg !important;
-    color: $Light-fontColor !important;
-}
-.ui-area-btn-make-payment:hover {
-    background-color: $makepayment-hover  !important;
-     color: $Light-fontColor !important;
-}
-.ui-area-btn-warning {
-    background-color: $warning-bg !important;
-     color: $Light-fontColor !important;
-}
-#ui-area .btn-success{
-    background-color: #0271c9 !important;
-    color: #fff !important;
-    background-image: none;
-    border: none;
-}
 .ui-area-btn-inverse {
     background-color: $inverse-bg !important;
-    color: $dark-fontColor !important;
+    color: $Light-fontColor !important;
 }
 .ui-area-btn-info {
     background-color: $info-bg !important;
-    color: $dark-fontColor !important;
+    color: $Light-fontColor !important;
 }
 
 .ui-area-btn-print {
@@ -92,12 +33,41 @@
     color: $Light-fontColor !important;
 }
 
+.ui-area-btn-next {
+    background-color:$nextx-previous-bg !important;
+    color: $Light-fontColor !important;
+}
+
+.ui-area-btn-previous {
+    background-color: $nextx-previous-bg !important;
+    color: $Light-fontColor !important;
+}
+
+.ui-area-btn-statement{
+    background-color: $statement-bg !important;
+    color: $Light-fontColor !important;
+}
+
+.ui-area-btn-statement-active {
+    background-color: $statement-active !important;
+    color: $Light-fontColor !important;
+}
+
+.ui-area-btn-make-payment {
+    background-color: $makepayment-bg !important;
+    color: $Light-fontColor !important;
+    transition: 0.5s all ease;
+}
+.ui-area-btn-make-payment:hover {
+    background-color: $makepayment-hover  !important;
+     color: $Light-fontColor !important;
+}
 .stmt-print-button {
     background-color:$statement-print !important;
     color: $Light-fontColor !important;
 }
 .stmt-print-button:hover {
-    background-color: $color-primary-light !important;
+    background-color:$campaign-on !important;
     color: $Light-fontColor !important;
 }
 .ui-area-btn-campaign-on {
@@ -105,16 +75,18 @@
     color: $Light-fontColor !important;
 }
 
-.ui-area-btn:hover {
+.ui-area-btn:hover{
     text-decoration: none !important;
 }
-.aui .btn {
-    text-shadow: 0 1px 1px rgba(255, 255, 255, 0) !important
-}
+
+
+.aui .btn {text-shadow: 0 1px 1px rgba(255, 255, 255, 0) !important}
 
 .aui .btn {
-    margin: 2px !important
+    margin:3px 2px !important
 }
+
+
 
 .ui-area-btn {
     -moz-border-bottom-colors: none;
@@ -136,17 +108,15 @@
     font-size: 14px;
     line-height: inherit !important;
     margin-bottom: 0;
-    padding: 6px 10px;
+    padding: 10px;
     text-align: center;
     /*   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75); */
     vertical-align: middle;
     border: 0 !important;
-    border-radius: 2px !important;
+    border-radius: 0px !important;
     /*  min-width: 70px !important; */
 }
-.ui-area-btn:hover {
-    text-decoration: none !important;
-}
+
 
 .tabButton {
   background-color:$inverse-bg;
@@ -157,19 +127,10 @@
 .textfieldsbt2 {
   background-color: $inverse-bg;
   border: medium none black;
-  color: $Light-fontColor;
+  color: $dark-fontColor;
 }
 
-.events-cal-link{
 
-    @extend .ui-area-btn;
-     background-color:$color-primary-darker !important;
-     color:$Light-fontColor !important;
-}
 
-.events-cal-link:hover{
 
-   background-color:$color-primary-medium !important;
-     color:$Light-fontColor !important;
-}
-
+// Calendar Buttons

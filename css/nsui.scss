@@ -1,9 +1,7 @@
 @charset "UTF-8";
 @import "components/variables";
 
-
 @import "components/announcements";
-@import "components/form-designer";
 @import "components/blogs";
 @import "components/button";
 @import "components/calendar";
@@ -18,8 +16,9 @@
 @import "components/roster";
 @import "components/table-styling";
 @import "components/typography";
-@import "components/horizontal-datepicker";
 @import "components/fonts";
+
+
 @import "components/portlets/ach";
 @import "components/portlets/change-password";
 @import "components/portlets/chits";
@@ -50,27 +49,5 @@
 @import "components/portlets/statement-settings";
 @import "components/portlets/statement-summary";
 @import "components/portlets/transactions";
-@import "components/portlets/activities";
-@import "components/portlets/shopping-cart";
 @import "components/portlets/events-reservation-decouple";
-
-
-
-@import "components/structure/body";
-@import "components/structure/header";
-@import "components/structure/footer";
-@import "components/structure/hamburger-ico";
-@import "components/structure/liferay-overwrite";
-@import "components/structure/pine-club";
-@import "components/structure/side-nav";
-
-
-
-
-
-@import "components/portlets/teetime/custom";
-@import "components/portlets/teetime/guest-tee-time";
-@import "components/portlets/teetime/jquery.mobile-1.4.5";
-@import "components/portlets/teetime/mobileteesheet";
-@import "components/portlets/teetime/tee-time-desktop";
-@import "components/portlets/teetime/tee-time-responsive";
+@import "components/portlets/eapp";
