@@ -1,48 +1,130 @@
+/* New Fix */
+#NewStyle tr td {
+    padding: 5px 0;
+}
+#NewStyle #ccSave {
+    background: $color-primary-darker;
+    border: 0;
+    padding: 8px;
+	color: $Light-fontColor;
+}
+#NewStyle #cancel {
+    background: #b30606;
+    border: 0;
+    padding: 8px;
+    color: #fff;
+}
+
+.additionalReservations table, tr, td{
+	vertical-align: middle !important;
+}
+div#addAnotherReservationButtonDIV {
+    margin: 0 0 10px 0;
+}
+div#Add_To_Cart_DIV {
+    margin: 0 0 10px 0;
+}
+.ItemSelectionGuestHeading {
+	color: #000 !important;
+}
+
+div[aria-describedby="showModalDialogDiv"] {
+    top: 0 !important;
+}
+
+/* MT#0150980: change color of buttons on event screen */
+#main .btn-success + .btn-primary {
+    background-color: #3279b5 !important;
+    border: 0px;
+}
+
+/* MT#0150980: change color of buttons on event screen */
+#main .btn-success + .btn-primary {
+    background-color: #221F72 !important;
+    border: 0px;
+}
+#main .btn-success + .btn-primary + .btn-warning {
+    background-color: #eeeded !important;
+    color: #464646;
+    border:0;
+}
+
+/* MT#0150469: 3 changes on event pop up */
+div#showModalDialogDiv {
+    height: 650px !important;
+}
+#Add_To_Cart_DIV input{
+    background-color: $color-primary-darker !important;
+}
+/* .ui-dialog-titlebar + #showModalDialogDiv {
+    height: 650px !important;
+} */
+/* End */
+#resDetailRowTotal0_0 {
+/*   color: white !important; */
+}
+
+.GuestItemLabel div span{
+/* 	color: white !important; */
+}
+
+#resDetailRowTotalContainer0_0 > span {
+/*   color: white !important; */
+}
+
+.epReservationListButton{
+background: none repeat scroll 0 0 #b0b0b0 !important;
+border: medium none !important;
+border-radius: 5px!important;
+box-shadow: 0 0 2px #ffffff, 0 0 1px #000000 inset !important;
+color: #000000 !important;
+font-family: $default-font-family;
+font-size: 12px !important;
+font-weight: bold !important;
+padding: 4px 12px !important;
+text-align: center !important;
+text-decoration: none !important;
+}
+
+.popoverContainerItemSummary {
+	padding: 8px 8px 8px 8px !important;
+	width: 282px !important;
+	margin: 5px 0px 0px -250px !important;
+	background: black !important;
+	height: auto !important;
+	background-repeat: no-repeat !important;
+}
+
+.popover.popoverItemSummary {
+  background-color: #000 !important;
+  box-shadow: none;
+}
 
 .homeHeading {
- background: -moz-linear-gradient(center top , #E41A22 0%, #B41419 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
-	background: -webkit-linear-gradient(top, #e41a22 0%, #b41419 100%);
-  border-radius: 10px;
-  border-right: 1px solid #E2E2E2;
- border-right: 1px solid #E2E2E2;
-  color: #FFFFFF;
-  font-family: Arial,Helvetica,sans-serif;
-  font-size: 14px;
+  color: #000;
+  font-size: 20px !important;
   font-weight: bold;
-  height: 23px;
+  height: 30px !important;
   list-style-type: none;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  padding: 5px 10px 0;
+  margin: 0 auto 30px;
+  padding: 7px 10px 0 !important;
   position: relative;
-	background: #e41a22;
 }
 .reservationStatus{
- font-family: Arial,Helvetica,sans-serif;
-  font-size: 11px;
-  font-weight: bold;
+	font-family: $default-font-family;
+  	font-size: 11px;
+  	font-weight: bold;
 }
 .seatingTimeBg {
-	border-radius: 10px;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 	height: 45px;
 	list-style-type: none;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 0;
-	padding: 0 0 0 0;
+	margin-top: 10px;	
+	padding: 3px;
 	position: relative;
-	background: -moz-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e2e2e2));
-	background: -webkit-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
-	background: -o-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
-	background: -ms-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2e2e2', GradientType=0 );
-	background: linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
-	background: #e2e2e2;
-	border-right: 1px solid #E2E2E2;
-	color: #606060;
+	background: $color-primary-darker;
+	color: #ffffff;
 }
 
 
@@ -50,7 +132,8 @@
 	border: 1px solid #DDDDDD;
 	border-radius: 5px;
 	box-shadow: 0 0 2px #888888;
-	font: 12px/30px Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	font-family: $default-font-family;
 	height: 30px;
 	outline: medium none;
 	padding: 5px;
@@ -58,51 +141,32 @@
 }
 
 #menu_wrap {
- /* border-radius: 10px;
-  height: 45px;
-  list-style-type: none;*/
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
   padding: 0 10px 0 0;
   position: relative;
-	background: -moz-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e2e2e2));
-	background: -webkit-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
-	background: -o-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
-	background: -ms-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2e2e2', GradientType=0 );
-	background: linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
-	list-style:none;
+  list-style:none;
 	
 }
 
-.adultsSpan { 
-	font: 12px/30px Arial,Helvetica,sans-serif;
+.adultsSpan {
+  font-family: $default-font-family;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 .fontClass { 
-	font: 12px/30px Arial,Helvetica,sans-serif;
-}
-
-.dropdown {
-	/*border: 1px solid #DDDDDD;
-	border-radius: 5px;
-	box-shadow: 0 0 2px #888888;*/
-	/*
-	font: 12px/30px Arial,Helvetica,sans-serif;
-	height: 30px;
-	outline: medium none;
-	padding: 5px;
-	width: auto;
-	margin-top: 6px;
-	*/
+  font-family: $default-font-family;
+  font-size: 14px;
 }
 
 
 .dropdownHeadCountItems {
 	border: 1px solid #DDDDDD;
 	border-radius: 5px;
-	font: 12px/30px Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	font-family: $default-font-family;
 	height: 30px;
 	outline: medium none;
 	padding: 5px;
@@ -114,7 +178,8 @@
 	border: 1px solid #DDDDDD;
 	border-radius: 5px;
 	box-shadow: 0 0 2px #888888;
-	font: 12px/30px Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	font-family: $default-font-family;
 	height: 18px;
 	outline: medium none;
 	padding: 5px;
@@ -125,7 +190,8 @@
 	border: 1px solid #DDDDDD !important;
 	border-radius: 5px !important;
 	box-shadow: 0 0 2px #888888;
-	font: 12px Arial,Helvetica,sans-serif !important;
+	font-size: 12px !important;
+	font-family: $default-font-family;
 	height: 18px;
 	outline: medium none;
 	padding: 5px 1px !important;
@@ -140,9 +206,8 @@
 	 
 .editarea { 
 	border: 1px solid #DDDDDD;
-	border-radius: 5px;
 	box-shadow: 0 0 2px #888888;
-	color: #666666;
+	color: #000000;
 	float: left;
 	outline: medium none;
 	padding: 5px 0 0 10px;
@@ -151,39 +216,47 @@
 
 
 #childrenSpan {
-  font: 12px/30px arial,helvetica,sans-serif;
+  font-size: 14px;
+  font-family: $default-font-family;
 }
 
 .agree {
-  font: 12px/30px arial,helvetica,sans-serif;
+  font-family: $default-font-family;
+  font-size: 14px;
+  letter-spacing: normal !important;
+  text-transform: capitalize;
+  line-height: 22px;
 }
 
 .agree a {
-  background-color: #C8C8C7;
+  background-color: #ddddd2;
   border-radius: 4px;
   color: #000000;
-  font-size: 13px;
-  padding: 2px;
+  padding: 5px 10px;
 }
 
 .available-label {
-  font: bold 12px/30px Arial,Helvetica,sans-serif;
+  font-family: $default-font-family;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .label-custom {
-  
+  font-size: 12px;
+  font-family: $default-font-family;
 }
 
 .availableSeats {
-  background: none repeat scroll 0 0 #007204;
+  background: none repeat scroll 0 0 #000;
   border: medium none;
-  border-radius: 5px;
-  box-shadow: 0 0 2px #FFFFFF, 0 0 1px #000000 inset;
-  color: #FFFFFF;
-  font: bold 16px Arial,Helvetica,sans-serif;
+  color: #ffffff;
+  font-weight: bold;
   padding: 2px 12px;
   text-align: center;
   text-decoration: none;
+  border: 1px solid #fff;
 }
 
 .table-margins {
@@ -197,18 +270,19 @@
 }
 
 .ysearchinput {
-
 	border: 1px solid #DDDDDD !important;
-	border-radius: 5px;
-	box-shadow: 0 0 2px #888888 !important;
-	color: #666666 !important;
-	float: left;
-	outline: medium none;
-	width: 93% !important;
-	height: 25px !important;
-	margin-top: -2px;
-	text-align: left !important;
-	padding-right: 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #888888 !important;
+    color: #666666 !important;
+    float: left;
+    outline: medium none;
+    width: 93% !important;
+    height: 28px !important;
+    min-height: 25px !important;
+    margin-top: 0;
+    text-align: left !important;
+    padding-right: 16px;
+    padding-left: 5px;
 }
 
 
@@ -248,8 +322,9 @@
 
 
 .noleftBorder {
-  border: 0px !important;
-	height:45px;
+border: 0 none !important;
+/* color: #fff; */
+height: 45px;
 	
 }
 
@@ -263,45 +338,42 @@
 	background-image:none !important;
 }
 
-.adultsSpanEvent { 
-	font: bold 12px/30px Arial,Helvetica,sans-serif; 
+.adultsSpanEvent {
+  font-family: $default-font-family;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 .availableTotals {
-	background: none repeat scroll 0 0 #007204;
-	border: medium none;
-	border-radius: 5px;
-	box-shadow: 0 0 2px #FFFFFF, 0 0 1px #000000 inset;
-	color: #FFFFFF;
-	font: bold 12px Arial,Helvetica,sans-serif;
-	padding: 4px 12px;
-	text-align: center;
-	text-decoration: none;
+    background: none repeat scroll 0 0 #ffffff;
+    color: #4a4a4a;
+    border: 1px solid #828282;
+}
+.buttonEM {
+  background: $color-primary !important;
+  box-shadow: 0 0 2px #ffffff, 0 0 1px #000000 inset;
+  color: #fff !important;
+  cursor: pointer !important;
+  font-weight: lighter;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size:12px !important;
 }
 
-.buttonEM {
-	background: none repeat scroll 0 0 #007204 !important;
-	border: medium none;
-	border-radius: 5px;
-	box-shadow: 0 0 2px #FFFFFF, 0 0 1px #000000 inset;
-	color: #FFFFFF !important;
-	font: bold 12px Arial,Helvetica,sans-serif;
-	padding: 4px 12px;
-	text-align: center;
-	text-decoration: none;
-	background-image:none !important;
+.buttonEM:hover {
+  background-color: #000 !important;
 }
 
 .button {
-	background: none repeat scroll 0 0 #B0B0B0 !important;
-	border: medium none;
-	border-radius: 5px;
-	box-shadow: 0 0 2px #FFFFFF, 0 0 1px #000000 inset;
-	color: #000000 !important;
-	font: bold 12px Arial,Helvetica,sans-serif;
-	padding: 4px 12px;
-	text-align: center;
-	text-decoration: none;
-	background-image:none !important;
+  background: none repeat scroll 0 0 #b9bfbf !important;
+  border: medium none;
+   color: #000000 !important;
+   font-size: 12px;
+  font-weight: bold;
+  padding: 4px 12px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .buttonDisable {
@@ -310,7 +382,9 @@
 	border-radius: 5px;
 	box-shadow: 0 0 2px #FFFFFF, 0 0 1px #000000 inset;
 	color: #6B6B6B !important;
-	font: bold 12px Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	font-family: $default-font-family;
 	padding: 4px 12px;
 	text-align: center;
 	text-decoration: none;
@@ -322,107 +396,129 @@
 }
 
 .reservationsHeadings {
-	/*background:-moz-linear-gradient(center top , #FEF7F7, #FEF7F7) repeat scroll 0 0 rgba(254, 247, 247, 2) !important;*/
-/*	background-color: #FEF7F7 !important;*/
-background :none !important;
-  color: #000;
-  border: 0px;
-	/*border-bottom:1px solid #FF0000;*/
+	background :none !important;
+	color: #000000 !important;
+	border: 0px;
 	text-align: center;
-	
 }
 .reservationsMainHeadings {
-	/*background:-moz-linear-gradient(center top , #FEF7F7, #FEF7F7) repeat scroll 0 0 rgba(254, 247, 247, 2) !important;*/
-/*	background-color: #FEF7F7 !important;*/
-background :none !important;
-  color: #000;
-  border: 0px;
+	background :none !important;
+	color: #000;
+	border: 0px;
 	border-bottom:1px solid #FF0000;
 	text-align: center;
-	
 }
 
 .reservationsTotal {
-	/*background:-moz-linear-gradient(center top , #FEF7F7, #FEF7F7) repeat scroll 0 0 rgba(254, 247, 247, 2) !important;*/
-/*	background-color: #FEF7F7 !important;*/
-background :none !important;
-  color: #000;
-  border: 0px;
+	background :none !important;
+	color: #000;
+	border: 0px;
 	border-bottom:1px solid #FF0000;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 .reservationsHeadingsOptional {
-	
-	background-color: #FEF7F7 !important;
-  color: #000;
-  border: 0px;
+	background-color: #f4f4f4 !important;
+	color: #000;
+	border: 0px;
 	border-bottom:0px solid #FF0000 !important;
-	text-align: center;
-	
+	text-align: center;	
 }
 
-.additionalReservations{
-	background-color: #FEF7F7;
-  border: 1px solid #E8B6B6;
-	margin-top: 10px;
-	text-align: center;
+.additionalReservations {
+  background-color: $color-primary-evenRow;
+  border: 1px solid #ffffff;
+  margin-top: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.oddRow a {
+  color: #b9bfbf;
 }
 
 .reservationsHeadings .optionalitems {
-  color: #000000;
-	/*background-color:#FEF7F7;*/
+	color: #000000;
 	font-size:12px;
 	text-align: center;
 }
 
 .reservationsHeadings .optionalitemsHeading {
-  color: #000000;
-	background-color:#FEF7F7;
+	color: #000000;
+	background-color:#f7f7f7;
 	font-size:12px;
 	text-align: center;
 }
 .headCountItemAmount{
-	font: 12px/30px Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	font-family: $default-font-family;
 	text-align:center !important;
 }
 .headCountItemTotalAmount{
-	font: 12px/30px Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	font-family: $default-font-family;
 	text-align:center !important;
 }
 .optionalItemsAmount{
-	font: 12px/30px Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	font-family: $default-font-family;
 	text-align:center !important;
 }
 .optionalTotalItemsAmount{
-	font: 12px/30px Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	font-family: $default-font-family;
 	text-align:center !important;
 }
 .totalAmount{
-	font: 12px/30px Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	font-family: $default-font-family;
 	text-align:center !important;
 }
 .grandTotalAmount{
-	font: 12px/30px Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	font-family: $default-font-family;
 	text-align:center !important;
 }
 .totalCount{
-	font: 12px/30px Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	font-family: $default-font-family;
 	text-align:center !important;
 }
 .totalLabel{
-	font: 12px/30px Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	font-family: $default-font-family;
 }
 
 #simplemodal-container {
-  background-color: #FFFFFF;
-  border: 5px solid #B41419 !important;
-  padding: 12px;
+  background-color: #ffffff;
+  border: 3px solid #333467 !important;
+  padding: 0 !important;
+  top: 5% !important;
+  width:70% !important;
 }
 
+
 #simplemodal-container a.modalCloseImg {
-  background: url("../images/close.png") !important;
+  background-color: red !important;
+  background-image: url(../images/ui-icons_ffffff_256x240.png) !important;
+  background-position: -96px -128px !important;
+  cursor: pointer !important;
+  display: inline !important;
+  height: 17px !important;
+  padding: 1px !important;
+  position: absolute !important;
+  right: 5px !important;
+  top: 7px !important;
+  width: 17px !important;
+  z-index: 99999 !important;
+}
+
+
+.simplemodal-data {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100%;
 }
 
 .button, .form legend, .legend, .mini-menu {
@@ -430,14 +526,14 @@ background :none !important;
 }
 
 #question-count-show { 
-	color: #000000;
-	font-family: arial;
+	color: #FFF;
+	font-family: $default-font-family;
 	margin: 0;
 	padding: 0; 
 	font-weight:bold;
 }
 .QusetionAnswers {
-	background-color: #FEF7F7;
+	background-color: #f7f7f7;
 	border-radius: 5px;
 	margin: 10px 8px;
 	padding: 5px; 
@@ -446,7 +542,7 @@ background :none !important;
 .questionSpan { 
 	background:none !important;
 	color: #585858 !important;
-	font-family: arial !important;
+	font-family: $default-font-family;
 	font-size: 12px !important;
 	font-weight: bold !important;
 	line-height: 32px !important;
@@ -471,12 +567,12 @@ background :none !important;
 }
 
 .waitingRow {
-  background-color: #FF8C73;
-  color: #000;
+  background-color: #000000;
+  color: #fff;
 }
 
 .cancelledRow {
-  background-color: #CC9999;
+  background-color: #c8c3c3;
   color: #000000;
 }
 
@@ -484,7 +580,8 @@ background :none !important;
 	border: 1px solid #DDDDDD;
 	border-radius: 5px;
 	box-shadow: 0 0 2px #888888;
-	font: 12px/30px Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	font-family: $default-font-family;
 	height: 30px;
 	outline: medium none;
 	padding: 5px;
@@ -497,62 +594,75 @@ background :none !important;
 
 
 .tableHeader {
-background: -moz-linear-gradient(center top , #E50505 0%, #B41419 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
-	border-right: 1px solid #ffffff;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E50505), color-stop(100%, #B41419));
-	background: -webkit-linear-gradient(top, #b41419 0%, #b41419 100%);
-	background: -o-linear-gradient(top, #E50505 0%, #B41419 100%);
-	background: -ms-linear-gradient(top, #E50505 0%, #B41419 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E50505', endColorstr='#B41419', GradientType=0 );
-	background: linear-gradient(top, #E50505 0%, #B41419 100%);
-	padding:4px;
-	background-color:#B41419;
+  background: $color-primary-darker !important;
+  border-right: 1px solid #ffffff;
+  color: #ffffff !important;
+  padding: 10px;
+  text-transform: uppercase;
 }
 
 .tableHeader a {
   color: #fff;
-	font-family: arial;
-	font-weight:bold;
-	font-size:12px;
+  display: block;
+  font-family: $default-font-family;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .tableHeader a:hover {
-  color: #000;
-	font-family: arial;
-	font-size:12px;
+	color: #ccc;
+/* 	font-family: $default-font-family;
+	font-size:12px; */
 }
 
-.oddRow { 
-	border:1px dotted #000;
-	font-family: arial;
-	font-size:12px;
+#sortTable23 .tableHeader a:hover {
+  color: #ccc;
 }
 
-.evenRow { 
-	border:1px dotted #000;
-	font-family: arial;
-	font-size:12px;
+.oddRow {
+  border: none;
+  font-family: $default-font-family;
+  font-size: 14px !important;
+  text-transform: uppercase;
+}
+
+
+.UGuestStatusLabel {
+  color: #b9bfbf;
+  font-size: 16px !important;
+  text-transform: uppercase !important;
+}
+
+.evenRow {
+  border: medium none;
+  font-family: $default-font-family;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.subheading {
+  text-transform: uppercase;
+}
+
+.content {
+/*   text-transform: uppercase; */
+}
+
+.evenRow a {
+  color: #b9bfbf;
 }
 
 .boldWhite {
-  color: #5D5B5B;
-  font-family: arial;
+  color: #000;
+  font-family: $default-font-family;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
-.buttonEM {
-	background: none repeat scroll 0 0 #007204 !important;
-	border: medium none;
-	border-radius: 5px;
-	box-shadow: 0 0 2px #FFFFFF, 0 0 1px #000000 inset;
-	color: #FFFFFF !important;
-	font: bold 12px Arial,Helvetica,sans-serif;
-	padding: 4px 12px;
-	text-align: center;
-	text-decoration: none;
-	background-image:none !important;
-}
+
 
 .tableNavigation {
 	background-color: #A3A1A1;
@@ -573,7 +683,7 @@ background: -moz-linear-gradient(center top , #E50505 0%, #B41419 100%) repeat s
 } 
 
 .DGuestStatus {/* Cancelled Status */
-  background-color: #CC9999;
+  background-color: #c8c3c3;
   color: #000000;
 }
 
@@ -582,64 +692,78 @@ background: -moz-linear-gradient(center top , #E50505 0%, #B41419 100%) repeat s
 }
 
 .reservationTimeHeading {
-	font: bold 12px/30px Arial, Helvetica, sans-serif;
-	font-size:14px;
+	font-size: 14px;
+	font-weight:bold;
+	font-family: $default-font-family;
 }
 
 .bookFor {
-	font: bold 12px/30px Arial, Helvetica, sans-serif;
-	font-size:12px;
+	font-size: 14px;
+	font-weight:bold;
+	font-family: $default-font-family;
 }
 
 .reservationDaysHeading {
-	font: bold 12px/30px Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+	font-family: $default-font-family;
 	text-decoration: underline;
-	font-size:14px;
 }
 
 .reservationDaysOnHeading {
-	font: 12px/30px Arial, Helvetica, sans-serif;
-	font-size:14px;
+	font-size: 14px;
+	font-family: $default-font-family;
 }
 
-.reservationListLink,.addCommentsSpan {
-	font: bolder 12px/30px Arial, Helvetica, sans-serif;
-	text-decoration: underline;
-	margin-top: -10px;
-	margin-bottom: -20px;
-	text-align: right;
-	cursor: pointer;
+.reservationListLink, .addCommentsSpan {
+  color: #919292;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $default-font-family;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 .guestTableHeadingSeparator {
-	border-bottom: 1px solid #FF0000;
+	/*border-bottom: 1px solid #b9bfbf;*/
 }
 
-.ItemSelectionGuestHeading {
-	color: #84b8d9;
-	font-size: 20px;
-	font: Arial, Helvetica, sans-serif;
-	font-weight: bold;
+.ItemSelectionGuestHeading, .eventPortal_PopupHeading {
+  background-color: #b9bfbf;
+  color: #000;
+  font-family: $default-font-family;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 3px 12px;
+  text-transform: capitalize;
 }
 
 .ItemSelectionHeading {
 	color: #000;
-	font-size: 18px;
-	font: Arial, Helvetica, sans-serif;
-	font-weight: bold;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	font-family: $default-font-family;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 9px;
+    padding-left: 12px;
+    padding-top: 10px;
 }
 
 .ItemSelectionLabel{
 	color: #000;
-	font: 12px/30px Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-family: $default-font-family;
 	font-weight: normal;
-	padding-left: 10px;
-	padding-bottom: 5px;
+  	padding-bottom: 18px;
+  	padding-left: 10px;
 }
 .ItemSelectionQTYField{
-	font: 12px/30px Arial, Helvetica, sans-serif !important;
+	font-size: 14px;
+	font-family: $default-font-family;
 	width: 35px;
 	text-align: right;
 	padding: 0px 5px 0px 0px !important;
@@ -648,11 +772,13 @@ background: -moz-linear-gradient(center top , #E50505 0%, #B41419 100%) repeat s
 	background: none !important;
 }
 .GuestItemLabel {
-	color: #000;
-	font: 12px Arial, Helvetica, sans-serif;
+	color: #202020;
+	font-size: 12px;
+	font-family: $default-font-family;
 	font-weight: bold;
 	margin-bottom: 0px !important;
 	height:20px;
+	text-align: left;
 }
 .GuestItemsDisplayTd{
 }
@@ -670,11 +796,12 @@ background: -moz-linear-gradient(center top , #E50505 0%, #B41419 100%) repeat s
 
 .GuestRowSeparator{
 border-bottom: dotted 1px;
-border-bottom-color: rgb(255, 176, 176);
+border-bottom-color: #fff;
+color: #000000 !important;
 }
 
 .DeleteReservationRow{
-	background-color: lightgray;
+	background-color: #776364;
 	color: #000;
 }
 .CustomCheckBox{
@@ -686,7 +813,7 @@ border-bottom-color: rgb(255, 176, 176);
 }
 
 .searialNumberTD{
-	text-align: left;
+	text-align: left !important;
 	padding-left: 10px;
 }
 
@@ -698,10 +825,18 @@ border-bottom-color: rgb(255, 176, 176);
 }
 
 .eventReservationFont {
-	font: 12px Arial, Helvetica, sans-serif;
+  font-family: $default-font-family;
+  font-size: 14px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
 }
+
 .eventReservationFontBold {
-	font: bold 12px Arial, Helvetica, sans-serif;
+  font-family: $default-font-family;
+  font-size: 16px;
+  letter-spacing: 0;
+  margin-right: 5px;
+  text-transform: capitalize;
 }
 
 .errorTextBox{
@@ -711,35 +846,482 @@ border-bottom-color: rgb(255, 176, 176);
 	color:red;
 }
 
-.popoverContainerItemSummary {
-    background-color: #fff !important;
-    border: 1px solid #000;
+.eventportal_CommentsTextBox{
+	    width: 153px;
 }
 
-.popoverItemSummary div {
-    color: #000;
+.eventPortal_reservationHeadingsTH{
+color: #fff;
+font-family: $default-font-family;
+font-size: 14px;
+/* text-align: left; */
+text-transform: uppercase;
+padding: 10px 0;
+letter-spacing:1px;
 }
 
-.buttonAlert {
-    background: #007204 none repeat scroll 0 0 !important;
-    border: medium none;
-    border-radius: 5px;
-    box-shadow: 0 0 2px #ffffff, 0 0 1px #000000 inset;
-    color: #ffffff !important;
-    font: bold 12px Arial,Helvetica,sans-serif;
-    padding: 4px 12px;
-    text-align: center;
-    text-decoration: none;
+.eventPortal_memberHeading {
+	color: #fff;
+	font-family: $default-font-family;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-align: left !important;
+	text-transform: uppercase;
 }
 
-.no-scroll {
-	height: 100%;
-	position: fixed;
-	width: 100%;
+.multiSelectOptions LABEL {
+  display: block;
+  padding: 2px 5px;
+  color: #000 !important;
 }
 
-div[aria-describedby="showModalDialogDiv"] {
-    height: auto !important;
-    max-height: none !important;
-    top: 36% !important;
+.eventPortal_applybutton,.eventPortal_quetionFinishbutton, .eventPortal_quetionUpdatebutton,.eventPortal_waiverFinishbutton,
+.newGuestButtonOk {
+    background-color: #797a7a !important;
+    border: medium none !important;
+    color: white !important;
+}
+
+.eventPortal_cancelbutton, .eventPortal_quetionClosebutton,.eventPortal_waiverClosebutton,.newGuestButtonCancel  {
+	background-color: red !important;
+	border: medium none !important;
+	color: white !important;
+	font-family: $default-font-family;
+}
+
+.eventPortal_itemsPopupButtons, .eventPortal_questionsPopupButtons {
+	padding-bottom:20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.eventPortal_waiverCountShow{
+	float:right;
+	margin-right: 35px;
+}
+
+.eventPortal_waiverTitle{
+	float:left;
+	text-decoration: underline;
+}
+
+.eventPortal_questionContent{
+	border:1px solid #808080; 
+	height:350px; 
+	overflow-y: auto !important;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+
+.eventPortal_reservationSchedule{
+	padding: 5px;
+}
+
+.eventPortal_seatingId{
+	height:18px;
+}
+
+#reservationSchedule.multiSelect {
+	padding: 5px;
+}
+
+.eventPortal_Button {
+  background-color: $color-primary-darker !important;
+  border: medium none !important;
+  border-radius: 0 !important;
+  color: #fff !important;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.42857;
+  margin-bottom: 0;
+/*   padding: 3px 9px; */
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-size: 12px !important;
+}
+	
+.epCloseButton{
+	
+}
+.eventPortal_createReservationButton {
+    background: $color-primary-darker !important;
+    box-shadow: 0px 0px 2px #FFF, 0px 0px 1px #000 inset;
+    color: #fff !important;
+}
+.eventPortal_ReservationListButton{
+	
+}
+
+input.multiSelect {
+  color: #000;
+  font-weight: normal;
+  font-size: 14px !important;
+  text-transform: uppercase !important;
+  font-family: $default-font-family;
+}
+
+#eventportal_typeTD input.multiSelect {
+  background-color: #fff !important;
+  color: #000;
+}
+
+#eventportal_typeTD input.multiSelect:hover {
+  background-color: #fff !important;
+}
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+/*   box-shadow: 0 0 5px #ccc inset !important;
+  font-family: $default-font-family;
+  font-size: 14px !important;
+  height: 35px !important;
+  text-transform: uppercase !important;
+  width: 250px !important;
+  letter-spacing:1px; */
+}
+
+input.multiSelect:hover {
+  border: medium none !important;
+  box-shadow: none !important;
+}
+
+input.button:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.ui-menu .ui-menu-item a {
+  color: #000 !important;
+  font-size: 14px !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+}
+
+.button.eventPortal_Button.epCloseButton {
+  background-color: #a70e08 !important;
+  color: #fff !important;
+  padding: 5px;
+}
+
+input#reservationsList {
+    padding: 5px;
+}
+
+
+#dAddNewGuestSpan0_1 span {
+  color: #000;
+  padding-left: 3px;
+}
+
+#NewStyle #sortTable23 .oddRow {
+  border: 1px solid #eee;
+  padding: 3px;
+}
+
+.MESSAGE {
+  font-size: 13px !important;
+  font-style: normal !important;
+}
+
+div#existingReservationAlert {
+  height: auto !important;
+  max-width: 450px;
+  width: auto;
+}
+
+
+.eventPortal_Button:hover {
+  background-color: #000 !important;
+}
+
+.button.eventPortal_Button.epCloseButton:hover {
+  background-color: #000 !important;
+}
+
+
+input.btn.btn-info.epReservationListButton, input.button.textfieldsbt2 {
+  background-color: #000 !important;
+  border-radius: 0 !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  height: 30px;
+}
+
+input.btn.btn-info.epReservationListButton, input.button.textfieldsbt2 {
+  height: auto !important;
+  max-height: 30px;
+}
+
+#memberRuleMessage {
+  font-family: $default-font-family;
+}
+
+#waiverDIV img {
+  box-shadow: 0 0 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.eventContent {
+  font-family: $default-font-family;
+  font-size: 14px !important;
+  letter-spacing: normal !important;
+  line-height: 22px !important;
+}
+
+.eventContent > a {
+  color: #a70e08 !important;
+}
+
+.eventDate {
+  font-size: 14px !important;
+  line-height: 22px !important;
+}
+
+.devicewidthinner td {
+  font-family: $default-font-family;
+  font-size: 14px !important;
+  line-height: 22px !important;
+}
+
+.reservationsHeadings th {
+	background-color: $primary-color;
+	padding: 5px 0px 5px 4px;
+}
+
+a:hover {
+  color: #a70e08;
+  text-decoration: underline;
+}
+
+div#memberRuleDiv {
+  background-color: #ffffff;
+  font-family: $default-font-family;
+  height: 150px;
+  left: 50%;
+  letter-spacing: 0;
+  padding: 5px;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  width: 380px;
+  z-index: 10003;
+}
+
+
+#overRideBtNo {
+  background-color: #a70e08 !important;
+  background-image: none !important;
+  color: #fff !important;
+}
+
+
+#overRideBtYes {
+  background-color: #5B5652 !important;
+  color: #fff !important;
+}
+
+#memberRuleDiv #messageType {
+  background-color: black;
+  color: #fff;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+div#buttonsDIV {
+    margin-right: 5px;
+}
+
+
+/* ----------- start 200px to 767px ----------- */
+@media screen and (min-width: 200px) and (max-width:767px) {
+	div#seatingAndReservationDetailDIV {
+		margin: 10px !important;
+	}
+	
+	#closeBtnDIV input#closeBtnInput {
+		width: 100% !important;
+		margin-right: 5px;
+	}
+	
+	#seatingAndReservationDetailDIV .seatingTimeBg {
+		max-width: 95%;
+	}
+	
+	div#addNewGuestNamePopup, div#confirmationAlert {
+		width: 350px !important;
+	}
+	
+	.popoverContainerHeadCountItemOnTotal {
+		width: 250px !important;
+		left: 0;
+		right: 0;
+		margin: 0 auto !important;
+	}
+
+}
+/* ----------- end 200px to 767px ----------- */
+
+#addNewGuestNamePopup input#newGuestButtonCancel {
+	margin-top: 10px;
+}
+
+#eventReservationQuestionForm .wizard.vertical > .actions {
+    margin-top: 5px !important;
+}
+
+.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    background: #a70e08;
+}
+
+
+.itemSelectionDIV {
+  height: auto !important;
+}
+/* MT#0148098: Issues on Event Reservation screen on Sun City Lincoln Hills - UI End */
+div#showModalDialogDiv {
+  height: 650px !important;
+}
+input#Add_To_Cart, input#createButton, input#addToWaitListButton, input#reservationsList, input#closeButton{
+  padding: 6px 12px !important;
+  margin-bottom : 0px !important;
+  margin-top : 0px !important;
+}
+td.commentsCol > input[type="text"]:only-child {
+  color: #000;
+  min-height: 28px !important;
+  width: 98%;
+  margin: 0;
+}
+input.btn-primary[value="Buy Tickets"], input.btn-warning[value="Close"] {
+  margin: 0px !important;
+}
+#simplemodal-container a.modalCloseImg[title="Close"] {
+  margin: 0px 5px 0px 0px !important;
+  padding: 9px 8px !important;
+}
+div#simplemodal-container{
+	max-width: 350px !important;
+}
+div#simplemodal-container input.buttonEM {
+  border: none !important;
+  border-radius: 3px !important;
+  font-weight: 100 !important;
+}
+div#simplemodal-container input.quickPickButtonCancel {
+	background-color:#f0ad4e !important;
+}
+div#simplemodal-container input.quickPickButtonOK {
+	background-color:#151414 !important;
+}
+div#confirmationAlert input.buttonEM {
+  border: none !important;
+  border-radius: 3px !important;
+  font-weight: 100 !important;
+}
+div#confirmationAlert input.ButtonEM[value="Confirm"] {
+	background-color:#f0ad4e !important;
+}
+div#confirmationAlert input.ButtonEM[value="Cancel"] {
+	background-color:#151414 !important;
+}
+button.ui-dialog-titlebar-close > span.ui-icon-closethick {
+  padding: 0px !important;
+  margin: -12px 0px 0px -8px !important;
+}
+/* .ui-widget-header > .ui-dialog-title {
+  color: #000 !important;
+  font-size: 14px !important;
+  letter-spacing: 1px;
+  font-weight: lighter;
+} */
+
+td.MESSAGE {
+    display: block;
+    margin: 0px auto !important;
+    background-color: #dffec0;
+    width: 98% !important;
+    border-radius: 4px;
+    border: 1px solid #c2e2a3;
+    background-position-x: 6px;
+    background-position-y: 7px;
+    padding: 5px 0px 1px 30px !important;
+}
+div#confirmationAlert {
+  height: auto;
+  width: auto;
+  max-width: 350px;
+}
+.smartphoneColWidth2 input.ysearchinput[type="text"] {
+  width: 100% !important;
+}
+
+
+
+/* Shopping Cart Payment */
+span.shop-spinner > input:first-child {
+  width: 100% !important;
+  float: left;
+  margin: 0px 0 0px 0px !important;
+  padding: 7px 20px !important;
+}
+span.shop-spinner {
+  display: inline-block !important;
+}
+span.shop-spinner > a.ui-button-text-only {
+  margin: 0px 0 25px 0px !important;
+  padding: 0px !important;
+  position: absolute;
+}
+/* span.shop-spinner > a.ui-button-text-only > span > span {
+  top: 0 !important;
+} */
+span.shop-spinner > a.ui-button-text-only:last-child:nth-child(3) {
+  top: 16px !important;
+  padding: 0px !important;
+}
+span.shop-spinner > a.ui-button-text-only:last-child:nth-child(3) > span {
+  margin: -5px 0px 0px -1px !important;
+  position: relative;
+}
+label.ui-selectonemenu-label {
+  display: block !important;
+  margin: 0px !important;
+}
+
+
+
+
+
+.shop-desc-dialog .ui-dialog-content > .shop-box {
+  width: 100% !important;
+}
+.shop-desc-dialog .ui-dialog-content > .shop-box img.cart-image {
+  max-width: 300px;
+  height: auto !important;
+  width: 100%;
+  margin: 0px 0px 5px;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+	div#Add_To_Cart_DIV,input#Add_To_Cart,div#Update_To_Cart_DIV,input#Update_To_Cart,div#createButtonDIV,input#createButton,div#buttonsDIV,input#checkOUtButton {
+	  width: 100%;
+	  min-width: 100%;
+	  margin-bottom: 2px !important;
+	}
+	input#closeButton {
+	  width: 100%;
+	}
+	div#buttonsDIV {
+	  float: none !important;
+	  padding: 0px !important;
+	}
+}
+
+th {
+    text-align: center !important;
 }

@@ -19,6 +19,7 @@
 @import url(nsui.css);
 @import url(print.css);
 @import url(sub-navigation.css);
+@import url(header.css);
 
 @import url(horizontal-carousel-tabs.css);
 @import url(Tabs.css);
@@ -36,7 +37,7 @@
 
 
 /*adding side-navigation css -- Start*/
-/* @import url(side-navigation/main.css);
+@import url(side-navigation/main.css);
 @import url(side-navigation/simple_view_page.css);
 @import url(side-navigation/simple_view_full.css);
 @import url(side-navigation/accordion.css);
@@ -47,5 +48,5 @@
 @import url(side-navigation/sidenav-custom-accordion.css);
 @import url(side-navigation/sidenav-mobile-custom-accordion-div.css);
 @import url(side-navigation/tow-levels.css);
-@import url(side-navigation/custom_view.css); */
+@import url(side-navigation/custom_view.css);
 /*adding side-navigation css -- End*/

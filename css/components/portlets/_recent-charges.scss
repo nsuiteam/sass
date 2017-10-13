@@ -1,3 +1,9 @@
+.rc-grid {
+    padding: 0px;
+}
+.rc-grid {
+    padding: 0;
+}
 .rc-label {
 	margin-left: 3px;
 }
@@ -18,4 +24,7 @@
 	/* 	    margin: 0px ; */
 	/* 	    zoom: 1; */
 	display: none;
+}
+.well {
+    margin-bottom: 10px !important;
 }

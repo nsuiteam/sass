@@ -1,29 +1,28 @@
-header {
-    position: absolute !important;
-    z-index: 2;
-    width: 100%;
+#content-margin {
+    margin: 30px 0 0;
 }
+
 header nav{
-	background: #fff;	
+    background: $headernavigationcolor !important;
 }
 /* Top Navigation */
 #textured-cssmenu a {
-  font-family: $default-font-family !important;
+  font-family: $seconday-font-family !important;
 }
 #textured-cssmenu > ul > li > a {
     font-size: $parentfontsize !important;
-    padding: $linkpaddtb $linkpaddrl !important;
+    padding: $linkpaddingtopbottom $linkpaddingrightleft !important;
  }
 #textured-cssmenu a:hover {
-	text-decoration: $none !important;
+    text-decoration: $none !important;
 }
 #textured-cssmenu ul ul li a {
-  background: $dropdownclr;
+  background: $dropdowncolor;
   border-bottom: 1px solid $dropdownsepline;
   color: $dropdownlinkclr;
   font-weight: $dropdownfontweight;
   line-height: $dropdownlineheight;
-  padding: $dropdownlpaddTB $dropdownlpaddRL !important;
+  padding: $dropdownlpaddTopBottom $dropdownlpaddRightLeft !important;
   text-align: $dropdownltextalign;
   text-decoration: $none;
   text-shadow: $none;
@@ -38,5 +37,5 @@ header nav{
 /* For Mobile Menu */
 /* .mm-panels, .mm-panels>.mm-panel {
     background: $dropdownclr !important;
-	color: $dropdownlinkclr !important; 
+    color: $dropdownlinkclr !important;
 } */

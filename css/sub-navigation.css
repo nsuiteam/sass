@@ -24,7 +24,7 @@ nav.sub-nav ul li a {
   background: url(/documents/10184/12041/sub-nav-divider.jpg);
   background-repeat: no-repeat;
   background-position: center right;
-  padding: 4px 22px !important;
+  padding: 4px 21px !important;
   height: 100% !important;
 }
 
@@ -80,6 +80,7 @@ li.sidenav-mobile-view-parent {
   padding: 0 !important;
   border-radius: 0 !important;
   background-color: #fff !important;
+  border-bottom: 1px solid #ccc;
 }
 
 .sidenav-mobile-view-div .sidenav-mobile-view-ul .sidenav-mobile-view-parent a {

@@ -1,3 +1,6 @@
+.stmt-grid {
+    padding: 0px !important;
+}
 .stmt-info-button {
 	position: inherit !important;
 	margin-bottom: 5px !important;
@@ -16,9 +19,8 @@
     font-weight: bold;
 }
 .stmt-file-text-icon{
-	    color: $stmt-file-text-icon !important;
+	    color: $default-fontColor !important;
 }
-
 /* Button */
 
 /* My Modification */

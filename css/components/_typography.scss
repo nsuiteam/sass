@@ -41,7 +41,7 @@
 	line-height: $lineheight-normal !important;
 }
 #ui-area h2{
-	font-size: $fontsize7 !important;
+	font-size: $default-font-size !important;
 	line-height: $lineheight-normal !important;
 }
 #ui-area p{
@@ -54,13 +54,13 @@
 }
 
 .accordion h3{
-	background: $accgreen !important;
-	border-bottom:  1px solid $accborderclr !important;
-	font-size: $acctitle !important;
+	background: $accordionbgcolor !important;
+	border-bottom:  1px solid $accordionbordercolor !important;
+	font-size: $accordiontitle !important;
 	text-shadow: $none !important;
 }
 .accordion h3.active, .accordion h3:hover{
-	background: $accactivehover !important;
+	background: $accordionactivehover !important;
 }
 
 

@@ -34,21 +34,26 @@
 	margin-top: 5px;
 }
 
+.events-advancelisting-eventdescription {
+    color: #888;
+    font-size: 15px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 .events-advancelisting-event {
-	border: 1px solid #c1c1c1;
-	border-radius: 2px;
-	box-sizing: border-box;
-	margin-bottom: 5px;
-	padding: 5px;
-	width: 100%;
-	box-sizing: border-box;
-	display: table;
-	margin-bottom: 5px;
-	padding: 5px;
-	display: table;
-	margin-bottom: 5px;
-	padding: 5px;
-	cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    display: table;
+    margin-bottom: 5px;
+    padding: 5px;
+    display: table;
+    margin-bottom: 5px;
+    padding: 5px;
+    cursor: pointer;
 }
 
 .events-advancelisting-itemhover:hover {
@@ -60,11 +65,9 @@
 }
 
 .events-advancelisting-eventname {
-	font-size: 20px;
-	font-weight: bold;
-    text-transform: uppercase;
-    color:$primary-bg;
-    margin-bottom: 8px;
+	font-size: 18px;
+	color: #000000;
+	margin-bottom: 8px;
 }
 
 .events-advancelisting-eventtypename {
@@ -80,11 +83,9 @@
 /* 641px and above */
 @media ( min-width : 641px) {
     .events-advancelisting-eventtimg {
-        float: left;
-        height: 235px !important;
-        width: 300px;
-        min-width: 300px;
-        box-shadow: 6px 6px 0px #ccc;
+	    float: left;
+	    height: 195px !important;
+	    min-width: 281px;
     }
 	.events-advancelisting-event {
 		display: flex;
@@ -189,6 +190,10 @@
 	background-color: #f8f8f8;
 }
 
+.event-list-heading .fa-calendar {
+	display: none;
+}
+
 .events-title-container {
 	margin-bottom: 10px;
 }
@@ -203,7 +208,7 @@
 
 .events-title {
 	font-size: 24px;
-	font-weight: bold;
+	font-weight: 300;
 }
 
 .events-event-reservation-iframe-loader-img {
@@ -248,21 +253,17 @@
 
 
 .events-advancelisting-eventdetail div, .events-advancelisting-eventdetail span {
-    padding: 6px 10px;
+    padding: 0 0 10px 0;
+   /*  color: #7b7b7b; */
 }
 .events-advancelisting-eventdate {
-    background-color: #0271c9;
-    color: #fff;
- 
+    color: #949494;
 }
 .events-advancelisting-eventtime {
-    background-color: #0271c9;
-    color: #fff;
+    color: #949494;
 
 }
 
-.events-advancelisting-eventdetail div, .events-advancelisting-eventdetail span {
-    padding: 4px 10px;
-    margin: 2px;
+.events-advancelisting-eventslots {
+    color: #949494;
 }
-

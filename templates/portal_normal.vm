@@ -8,6 +8,7 @@
    <meta name="format-detection" content="telephone=no">
    <!-- LOAD JQUERY LIBRARY -->
    <script type="text/javascript" src="$javascript_folder/jquery-1.11.1.min.js"></script>
+   <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">
    <!-- Add fancyBox main JS and CSS files -->
    <script type="text/javascript" src="$javascript_folder/featherlight.js"></script>
    <script type="text/javascript" src="$javascript_folder/vegas.min.js"></script>
@@ -17,6 +18,12 @@
    #else
    #end
    #end
+
+   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+   
+
+   
    <script type="text/javascript">
       var themerjQuery = jQuery.noConflict();
       var revolutionSliderjQuery = jQuery.noConflict();
@@ -76,6 +83,10 @@
       				themerjQuery('#back-top').fadeOut();
       			}
       		});
+			
+			
+			
+			
 		
       		// scroll body to 0px on click
       		themerjQuery('#back-top a').click(function () {
@@ -86,6 +97,19 @@
       		});
 		});
 	</script>
+	 <script type="text/javascript">
+	var themerjQuery1 = jQuery.noConflict();
+		themerjQuery1(document).on("scroll",function(){
+			if(themerjQuery1(document).scrollTop()>100){ 
+				themerjQuery1("header").removeClass("large").addClass("small");
+				}
+			else{
+				themerjQuery1("header").removeClass("small").addClass("large");
+				}
+			});
+   </script>
+   
+
 	$theme.include($top_head_include)
    #parse ("$full_templates_path/condition.vm")
 </head>
@@ -114,8 +138,7 @@
          </div>
          <div id="back-top"> <a href="#top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a> </div>
       </div>
-      #parse ("$full_templates_path/footer.vm")    
-      #parse ("$full_templates_path/mobile-login.vm")    
+      #parse ("$full_templates_path/footer.vm")      
    </div>
    $theme.include($body_bottom_include) 
    $theme.include($bottom_include)
@@ -170,7 +193,7 @@
 						}
 						,
 						bullets: {
-							enable:true,
+							enable:false,
 							hide_onmobile:true,
 							hide_under:778,
 							style:"hermes",

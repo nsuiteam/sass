@@ -1,3 +1,17 @@
+@media (min-width: 980px){
+button.ui-datepicker-trigger.ui-button {
+    top: 3px;
+}
+}
+.mp-trash {
+    color: $danger-bg  !important;
+}
+.mp-upload {
+    color: $success-bg !important;
+}
+.mp-grid {
+    text-align: left;
+}
 .mp-grid-col i {
     display: $icon-display;
 }
@@ -21,6 +35,7 @@
     text-align: left;
     font-size: 26px;
     font-weight: normal;
+    text-align: left !important;
 }
 .col-head {
 	width: 33.33333% !important;

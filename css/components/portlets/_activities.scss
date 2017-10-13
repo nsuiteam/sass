@@ -52,7 +52,7 @@
 .activities-portlet .btn-location, .activities-portlet .btn-groups, .activities-portlet .btn-sheet, .activities-portlet .btn-legend {
 	float: right;
 	text-decoration: none !important;
-	background-color: #2196F3 !important;
+	background-color: $color-primary !important;
 }
 
 @media only screen and (min-width: 1025px){
@@ -511,7 +511,7 @@ and (orientation : landscape) {
 
 .activities-portlet td.data-col.interval {
     text-align: center!important;
-    background-color: #7abee4!important;
+    background-color: $color-primary-light !important;
     border-right: 1px solid #ddd!important;
     color: #000;
 }
@@ -520,7 +520,7 @@ and (orientation : landscape) {
     background: 0;
     color: #fff!important;
     text-align: center!important;
-    background-color: #1a4d69!important;
+    background-color: $color-primary important;
     text-shadow: none !important;
 }
 
@@ -993,11 +993,6 @@ and (orientation : landscape) {
     opacity: 1;
     background-color: #F5F5F5 !important;
 }
-
-.activities-portlet .ui-dialog .ui-dialog-titlebar {
-    background: #fff !important;
-}
-
 .activities-portlet .activity-date-picker {
 	min-width: 180px;
 }

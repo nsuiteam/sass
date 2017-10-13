@@ -1,3 +1,8 @@
 /* header {
 	  position: absolute;
 	} */
+	
+	#ui-area h1 i,#ui-area h2 i, #ui-area h3 i, #ui-area h4 i  {
+  
+    display: none !important;
+}

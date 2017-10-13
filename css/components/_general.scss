@@ -1,5 +1,15 @@
+.grid {
+    text-align: left !important;
+}
+/* CALENDAR STYLE  */
+#ui-datepicker-div .ui-datepicker-header{
+  background: $color-primary !important;
+}
+#ui-datepicker-div .ui-state-active {
+  background: $color-primary !important;
+  color: $Light-fontColor;
+}
 /* CUSTOM FIXES START */
-
 .ui-button-icon-only .ui-icon {
     left: 48% !important;
     top: 13px !important;
@@ -16,9 +26,10 @@
 #ui-area .ui-paginator .ui-state-active {
   background: $secondry-bg !important;
   color: $Light-fontColor;
+    box-shadow: none !important;
 }
 button.ui-datepicker-trigger.ui-button {
-  padding: 2px 0; 
+  padding: 2px 0;
 }
 .MemberProfile-portlet .mp-dn-heading {
   padding: 0 0 0 8px;
@@ -47,7 +58,7 @@ button.ui-datepicker-trigger.ui-button {
 @media screen and (min-width:980px) and (max-width:1199px) {
  button.ui-datepicker-trigger.ui-button {
   padding: 0px 0 4px;
-}     
+}
 }
 /* CUSTOM FIXES END */
 
@@ -85,9 +96,13 @@ button.ui-datepicker-trigger.ui-button {
   padding: 7px 8px;
   text-transform: none;
 }
-.MemberProfile-portlet .ui-dialog .ui-widget-header {
+.ui-dialog-titlebar {
   background-color: $primary-bg;
   padding: 8px 7px;
+}
+.ui-dialog-titlebar span{
+    color: $Light-fontColor !important;
+    font-size: 20px;
 }
 .MemberProfile-portlet .ui-dialog .ui-widget-header .ui-dialog-titlebar-close {
   margin-top: 2px;
@@ -120,7 +135,7 @@ button.ui-datepicker-trigger.ui-button {
 @media screen and (min-width:220px) and (max-width:767px) {
 .ChangePassword-portlet  .ui-password {
   width: 100%;
-}     
+}
 }
 /* ADDRESS END */
 
@@ -169,7 +184,7 @@ button.ui-datepicker-trigger.ui-button {
 /* ACCOUNT SUMMARY END */
 
 /*CREDIT BOOK START */
-.CreditBook-portlet .ui-dialog-content .rc-icon {
+.CreditBook-portlet .ui-dialog-content  {
   color: $primary-bg !important;
   margin-top: 9px;
 }
@@ -265,16 +280,13 @@ div#loadingOverlay {
     margin: 0 !important;
     color: #fff !important;
     text-transform: uppercase;
-    font-size: 22px !important;
+    font-size: 15px !important;
     padding: 0 !important;
     display: inline-block !important;
     float: none !important;
 }
 
 
-.ui-datepicker .ui-datepicker-calendar .ui-state-default {
-    color: $default-fontColor !important;
-}
 
 .mp-value-text {
     display: inline-block;
@@ -374,7 +386,7 @@ font-weight: normal !important;
   background: $background-light;
 }
 .ui-widget {
-   
+
     font-size:$default-font-size !important;
     font-family: $default-font-family !important;
 }
@@ -415,12 +427,12 @@ font-weight: normal !important;
 .aui .table thead th {
     font-size:$default-font-size !important;
  }
- 
+
  @media screen and (min-width: 220px) and (max-width:980px) {
-	.aui .table thead th {
+    .aui .table thead th {
     font-size: 13px !important;
- } 
-	 
+ }
+
  }
 
 
@@ -431,35 +443,35 @@ font-weight: normal !important;
 
 .aui .table-bordered {
 
-	margin: 5px 0;
+    margin: 5px 0;
 }
 
 #ui-area .table-striped tbody > tr:nth-child(even) {
-		> td, > th {
-			background-color:$evenRow-bg;
-		}
-	}
-	
+        > td, > th {
+            background-color:$evenRow-bg;
+        }
+    }
+
 #ui-area .table-striped tbody > tr:nth-child(odd) {
-		> td, > th {
-			background-color: $oddRow-bg;
-		}
-	}
+        > td, > th {
+            background-color: $oddRow-bg;
+        }
+    }
 
 .aui dt {font-weight:normal !important}
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
     /* border: 1px solid #a8a8a8; */
-    background-color: transparent !important;
     font-weight: normal !important;
     text-align: left;
     text-shadow: 0px 0px 0px rgba(255,255,255,0) !important;
+    background: transparent !important;
 }
 
 .amount-position {
     text-align: right !important;
 }
 .heading-position span {
-   
+
     float: right;
     width: 100%;
 }
@@ -472,7 +484,7 @@ font-weight: normal !important;
 .aui .label, .aui .badge {
   font-weight: normal  !important;
   padding: 6px;
-  
+
 }
 .label-custom{
 
@@ -483,8 +495,8 @@ background-color: $primary-color !important;
 
 }
 .aui .label-success {
-
-background-color: $success-bg !important;
+    background-color: $success-bg !important;
+    font-size: $default-font-size !important;
 
 }
 .ui-widget-header{
@@ -539,7 +551,7 @@ color: $default-fontColor !important;
 
 .aui .table-bordered {
 
-    border: 1px dotted rgba(153, 153, 153, 0.54) !important; 
+    border: 1px dotted rgba(153, 153, 153, 0.54) !important;
 }
 
 //Statements
@@ -550,7 +562,7 @@ color: $default-fontColor !important;
 
 .rec-pay-bar{
 background-color: $secondry-bg;
-color: $label-fontColor ;    
+color: $label-fontColor ;
 
 }
 .curr-amo-bar{
