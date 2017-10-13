@@ -1,3 +1,15 @@
+.ui-widget-header .ui-icon {
+    background-image: url(../images/ui-icons_ffffff_256x240.png) !important;
+	}
+.ui-datepicker-header .ui-state-hover {
+    background: $color-primary-light !important;
+}
+.ui-datepicker .ui-datepicker-next-hover {
+    top: -1px !important;
+}
+.ui-datepicker .ui-datepicker-pre-hover {
+    top: -1px !important;
+}
 .grid {
     text-align: left !important;
 }
@@ -29,7 +41,8 @@
     box-shadow: none !important;
 }
 button.ui-datepicker-trigger.ui-button {
-  padding: 2px 0;
+  padding: 0px 0;
+  margin-top: -4px;
 }
 .MemberProfile-portlet .mp-dn-heading {
   padding: 0 0 0 8px;
@@ -464,7 +477,7 @@ font-weight: normal !important;
     font-weight: normal !important;
     text-align: left;
     text-shadow: 0px 0px 0px rgba(255,255,255,0) !important;
-    background: transparent !important;
+	background: #fff !important;
 }
 
 .amount-position {
