@@ -24,7 +24,10 @@ and (max-device-width : 480px) {
 .limited-stock {
     font-size: 11px !important;
 }
-
+.product-image {
+    height: 230px !important;
+    width: 190px !important;
+}
  }
 
 /* Cart */
@@ -335,9 +338,12 @@ td.shop-order-detail {
 	height: 175px !important;
 	object-fit: contain;
 }
-
+@media screen and (max-width: 1920px) and (min-width:1200px) {
 .product-image {
 	height: 400px !important;
+	}
+}
+.product-image {
 	width: 300px;
 	margin-bottom: 10px;
 	object-fit: contain;

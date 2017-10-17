@@ -1,3 +1,6 @@
+.rooms-verify-reservation-container textarea {
+    margin-bottom: 10px !important;
+}
 .room-img {
 	@include border;
 	margin-top: 10px;
@@ -117,6 +120,12 @@ h4.room-name {
 		width: 100%;
 		box-sizing: border-box;
 	}
+	.rooms-main-div {
+		margin-top: 0px !important;
+	}
+	button.ui-datepicker-trigger.ui-button {
+    margin-top: 0px;
+}
 }
 
 /* 679px and above */

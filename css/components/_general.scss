@@ -1,4 +1,12 @@
-/* For Complete Website Calendar Change*/
+.ui-selectonemenu-items-wrapper {
+    max-height: 250px !important;
+    max-width: 275px !important;
+    overflow-x: hidden !important;
+}
+.ui-slider .ui-slider-handle {
+    border-radius: 10px !important;
+    margin-top: 0px !important;
+}
 .ui-widget-header .ui-icon {
     background-image: url(../images/ui-icons_ffffff_256x240.png) !important;
 	}
@@ -44,6 +52,7 @@
 button.ui-datepicker-trigger.ui-button {
   padding: 0px 0;
   margin-top: -4px;
+  height: 31px;
 }
 .MemberProfile-portlet .mp-dn-heading {
   padding: 0 0 0 8px;

@@ -168,8 +168,12 @@
   background-color: #9ac6e9 !important;
   color: #000 !important; }
 
+.ui-area-btn-info:hover {
+  background-color: #9ac6e9 !important;
+  color: #fff !important; }
+
 .ui-area-btn-print {
-  background-color: #67aadf !important;
+  background-color: #1b7fce !important;
   color: #fff !important; }
 
 .stmt-print-button {
@@ -242,6 +246,9 @@
 .events-cal-link:hover {
   background-color: #67aadf !important;
   color: #fff !important; }
+
+.nav-tabs li a {
+  color: #000; }
 
 .calendar-add-event-btn {
   background-color: #0271c9 !important;
@@ -405,6 +412,15 @@ th.yui3-calendar-weekday {
   .aui .btn {
     padding: 4px 12px;
     font-size: 14px; } }
+.ui-selectonemenu-items-wrapper {
+  max-height: 250px !important;
+  max-width: 275px !important;
+  overflow-x: hidden !important; }
+
+.ui-slider .ui-slider-handle {
+  border-radius: 10px !important;
+  margin-top: 0px !important; }
+
 .ui-widget-header .ui-icon {
   background-image: url(../images/ui-icons_ffffff_256x240.png) !important; }
 
@@ -448,7 +464,8 @@ th.yui3-calendar-weekday {
 
 button.ui-datepicker-trigger.ui-button {
   padding: 0px 0;
-  margin-top: -4px; }
+  margin-top: -4px;
+  height: 31px; }
 
 .MemberProfile-portlet .mp-dn-heading {
   padding: 0 0 0 8px; }
@@ -2278,6 +2295,10 @@ span.calendar-year {
 .credit-book-box td {
   width: 50%; }
 
+.cross .rc-icon {
+  color: #fff !important;
+  margin-top: 9px; }
+
 @media (max-width: 640px) {
   .del-col {
     display: block; }
@@ -2789,6 +2810,9 @@ ol {
   cursor: pointer; }
 
 /* New Fix */
+#MemberMessageTable {
+  margin-bottom: 10px; }
+
 #NewStyle tr td {
   padding: 5px 0; }
 
@@ -3982,7 +4006,10 @@ th {
     text-align: left !important; }
 
   .pmnt-col-amnt-due {
-    text-align: left !important; } }
+    text-align: left !important; }
+
+  .pmnt-create-ach-error {
+    margin-bottom: 10px; } }
 .pmnt-specific-dates {
   border: 1px solid #1b7fce !important; }
 
@@ -4106,7 +4133,10 @@ i.mp-upload {
 
 @media screen and (min-width: 768px) and (max-width: 980px) {
   .mp-picture-image {
-    width: auto !important; } }
+    width: 150px !important; }
+
+  button.ui-datepicker-trigger.ui-button {
+    margin-top: -1px; } }
 @media (max-width: 640px) {
   .mp-picture-image {
     margin-bottom: 0px;
@@ -4121,6 +4151,9 @@ i.mp-upload {
   .mp-email {
     font-size: 15px;
     word-break: break-all; } }
+.mr-detail-heading {
+  color: #0271c9; }
+
 .mr-datatable tr td {
   width: 100%; }
 
@@ -4324,6 +4357,18 @@ td.text-center {
 .well {
   margin-bottom: 10px !important; }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .info-bar-left {
+    font-size: 13px; }
+
+  .info-bar-right {
+    font-size: 13px; }
+
+  .rc-icon {
+    margin-top: 3px; } }
+.rooms-verify-reservation-container textarea {
+  margin-bottom: 10px !important; }
+
 .room-img {
   border: 1px solid #ccc !important;
   border-radius: 1px !important;
@@ -4421,7 +4466,13 @@ h4.room-name {
 
   .ui-area-btn, .events-cal-link {
     width: 100%;
-    box-sizing: border-box; } }
+    box-sizing: border-box; }
+
+  .rooms-main-div {
+    margin-top: 0px !important; }
+
+  button.ui-datepicker-trigger.ui-button {
+    margin-top: 0px; } }
 /* 679px and above */
 /* 1px to 1160px */
 @media (min-width: 1px) and (max-width: 1160px) {
@@ -4816,7 +4867,11 @@ img.member-img {
     font-size: 12px !important; }
 
   .limited-stock {
-    font-size: 11px !important; } }
+    font-size: 11px !important; }
+
+  .product-image {
+    height: 230px !important;
+    width: 190px !important; } }
 /* Cart */
 .col-cart-right .ui-c {
   top: 50% !important; }
@@ -5085,8 +5140,10 @@ td.shop-order-detail {
   height: 175px !important;
   object-fit: contain; }
 
+@media screen and (max-width: 1920px) and (min-width: 1200px) {
+  .product-image {
+    height: 400px !important; } }
 .product-image {
-  height: 400px !important;
   width: 300px;
   margin-bottom: 10px;
   object-fit: contain; }
@@ -5229,6 +5286,9 @@ td.shop-order-detail {
 @media (min-width: 641px) and (max-width: 800px) {
   .shop-ship-button-row .ui-grid-col-2 {
     width: 20%; } }
+.ui-widget-header .ui-icon {
+  background-image: url(../images/ui-icons_228ef1_256x240.png) !important; }
+
 .stmt-grid {
   padding: 0px !important; }
 
@@ -5359,14 +5419,38 @@ td.shop-order-detail {
 /* 641px to 979px */
 /* 768px to 979px */
 /* 980px and above */
+.activity-cancel-reservation-dialog ul {
+  margin: 0px !important; }
+
+.ui-datepicker {
+  width: 16em !important; }
+
+.activity-cancel-reservation-dialog textarea {
+  margin-bottom: 10px;
+  width: 100% !important;
+  max-width: 600px; }
+
+.ui-autocomplete-list {
+  height: 300px !important; }
+
 .footer-row td {
   background: #0271c9 !important; }
 
+.btn-update {
+  background: #1b7fce !important;
+  text-align: center; }
+
+.btn-cancel {
+  background: #bf1f11 !important;
+  text-align: center; }
+
 .btn-save {
-  background: #1b7fce !important; }
+  background: #1b7fce !important;
+  text-align: center; }
 
 .btn-back {
-  background: #bf1f11 !important; }
+  background: #bf1f11 !important;
+  text-align: center; }
 
 .activities-portlet .activity-header {
   background-color: #fff;
@@ -6234,7 +6318,11 @@ td.shop-order-detail {
     font-size: 12px !important; }
 
   .limited-stock {
-    font-size: 11px !important; } }
+    font-size: 11px !important; }
+
+  .product-image {
+    height: 230px !important;
+    width: 190px !important; } }
 /* Cart */
 .col-cart-right .ui-c {
   top: 50% !important; }
@@ -6503,8 +6591,10 @@ td.shop-order-detail {
   height: 175px !important;
   object-fit: contain; }
 
+@media screen and (max-width: 1920px) and (min-width: 1200px) {
+  .product-image {
+    height: 400px !important; } }
 .product-image {
-  height: 400px !important;
   width: 300px;
   margin-bottom: 10px;
   object-fit: contain; }
@@ -7154,7 +7244,7 @@ body.page-maximized {
     margin-right: 0 !important; }
 
   .ui-outputlabel.ui-widget {
-    font-size: 11px !important; }
+    font-size: 14px !important; }
 
   .er-clock-img {
     display: none; }
@@ -7543,6 +7633,9 @@ header nav {
 .mobile-menu div {
   float: left; }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .container {
+    padding: 15px; } }
 /* Side Nav For Mobile */
 span.sidenav-mobile-view-heading {
   background: #3a4a1a !important;
@@ -7626,6 +7719,61 @@ span.sidenav-session-heading {
 
   .sidenav-session-ul {
     margin: 10px 20px !important; } }
+.teetime-webservice .cross .fa-times {
+  margin-top: 9px;
+  color: #fff; }
+
+.teetime-webservice .ui-area-btn-danger {
+  text-shadow: none; }
+
+.teetime-webservice .ui-area-btn-success {
+  text-shadow: none; }
+
+.tee-time-heading {
+  font-size: 22px !important;
+  line-height: 25px !important;
+  background-color: #0f78cc;
+  padding: 8px 7px;
+  font-family: "Lato-Regular" !important;
+  color: #fff !important;
+  font-weight: 400 !important; }
+
+.heading-notes-area {
+  margin-bottom: 10px !important; }
+
+.ui-panel-titlebar {
+  background: #0271c9; }
+
+.teetime-webservice .player-info-label {
+  padding: 10px; }
+
+.ui-button-text-only .ui-button-text {
+  padding: .5em 1em !important; }
+
+.playersSel .ui-state-active {
+  background: #0271c9 !important;
+  color: #fff; }
+
+.teetime-webservice .time-div {
+  width: 84px !important;
+  padding-top: 16px; }
+
+.teetime-webservice .slot-area {
+  width: 100% !important;
+  padding: 11px 10px 0 !important; }
+
+.btn-reserve-area a {
+  font-size: 15px !important;
+  margin: 16px 0px;
+  right: 10px;
+  position: relative; }
+
+.btn-reserve-area span {
+  font-size: 15px !important;
+  margin: 16px 0px;
+  right: 10px;
+  position: relative; }
+
 .teetime-webservice .iceSelInpTxtList {
   border: 0px groove #B3B1B4;
   margin-left: 0;
@@ -12609,9 +12757,10 @@ span.sidenav-session-heading {
   .teetime-webservice .grid-players-info {
     margin-top: 10px; }
   .teetime-webservice .btn-uselastplay {
-    background-color: #C7D29C !important;
+    background-color: #0271c9 !important;
     font-size: 12px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    color: #fff !important; }
   .teetime-webservice .uselastplay-area {
     text-align: right; }
   .teetime-webservice .popup-header {
@@ -13637,7 +13786,8 @@ span.sidenav-session-heading {
     width: 11px;
     margin-right: 3px; }
   .teetime-webservice .teetime-webservice .timePeriodSel .ui-button-text-only {
-    display: table-cell !important; }
+    display: table-cell !important;
+    padding: .5em 1em !important; }
   .teetime-webservice .timePeriodSel .ui-button-text {
     padding: .3em 0.3em !important; } }
 @media (max-width: 640px) {

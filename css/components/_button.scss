@@ -86,9 +86,12 @@
     background-color: $info-bg !important;
     color: $dark-fontColor !important;
 }
-
+.ui-area-btn-info:hover {
+    background-color: $color-primary-light !important;
+    color: $Light-fontColor !important;
+}
 .ui-area-btn-print {
-    background-color: $print-bg !important;
+    background-color: $statement-print !important;
     color: $Light-fontColor !important;
 }
 

@@ -92,9 +92,11 @@ i.mp-upload {
 
 @media screen and (min-width:768px) and (max-width:980px) {
    .mp-picture-image {
-  width: auto !important;
+  width: 150px !important;
 } 
-    
+button.ui-datepicker-trigger.ui-button {
+    margin-top: -1px;
+}
 }
 
 @media ( max-width : 640px) {

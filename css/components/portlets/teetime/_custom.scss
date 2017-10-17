@@ -1,5 +1,59 @@
+.teetime-webservice .cross .fa-times {
+    margin-top: 9px;
+    color: #fff;
+}
+.teetime-webservice .ui-area-btn-danger {
+    text-shadow: none;
+}
+.teetime-webservice .ui-area-btn-success {
+    text-shadow: none;
+}
+.tee-time-heading {
+   font-size: $chit-heading !important;
+	line-height: $type-lineheight !important;
+    background-color: $primary-bg;
+    padding: 8px 7px;
+    font-family: $default-font-family !important;
+    color: $Light-fontColor !important;
+	font-weight: 400 !important;
+}
+.heading-notes-area {
+    margin-bottom: 10px !important;
+}
+.ui-panel-titlebar {
+    background: $color-primary;
+}
+.teetime-webservice .player-info-label {
+    padding: 10px;
+}
+.ui-button-text-only .ui-button-text {
+	    padding: .5em 1em !important;
+}
+.playersSel .ui-state-active {
+    background: $color-primary !important;
+    color: #fff;
+}
+.teetime-webservice .time-div {
+    width: 84px !important;
+    padding-top: 16px;
+}
+.teetime-webservice .slot-area {
+    width: 100% !important;
+    padding: 11px 10px 0 !important;
+}
+.btn-reserve-area a {
+    font-size: 15px !important;
+    margin: 16px 0px;
+    right: 10px;
+    position: relative;
+}
+.btn-reserve-area span {
+    font-size: 15px !important;
+    margin: 16px 0px;
+    right: 10px;
+    position: relative;
+}
 .teetime-webservice {
-
 .iceSelInpTxtList {
 	border: 0px groove #B3B1B4;
 	margin-left: 0;

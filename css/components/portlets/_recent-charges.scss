@@ -28,3 +28,17 @@
 .well {
     margin-bottom: 10px !important;
 }
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+.info-bar-left {
+    font-size: 13px;
+}
+.info-bar-right {
+    font-size: 13px;
+}
+.rc-icon {
+    margin-top: 3px;
+}
+}
+

@@ -1,11 +1,35 @@
+.activity-cancel-reservation-dialog ul {
+    margin: 0px !important;
+}
+.ui-datepicker {
+    width: 16em !important;
+}
+.activity-cancel-reservation-dialog textarea {
+    margin-bottom: 10px;
+    width: 100% !important;
+    max-width: 600px;
+}
+.ui-autocomplete-list {
+    height: 300px !important;
+}
 .footer-row td {
     background: $color-primary !important;
 }
+.btn-update {
+	 background : $success-bg !important;
+	     text-align: center;
+}
+.btn-cancel{
+	 background : $danger-bg !important;
+	     text-align: center;
+}
 .btn-save {
  background : $success-bg !important;
+     text-align: center;
 }
 .btn-back {
  background : $danger-bg !important;
+     text-align: center;
 }
 .activities-portlet .activity-header {
     background-color: $Light-fontColor;

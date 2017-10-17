@@ -1,3 +1,10 @@
 .mobile-menu div {
     float: left;
 }
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+.container {
+    padding: 15px;
+}
+}

@@ -1383,10 +1383,7 @@ hr {
 .scheduler-base-views .btn-primary:last-child {
   margin-right: 0 !important;
 }
-.yui3-skin-sam .calendar-portlet .yui3-calendar-day.lfr-current-day {
-  background-color: #009b94 !important;
-  color: #fff !important;
-}
+
 /* .ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
   background-color: #009b94 !important;
   background-image: none !important;

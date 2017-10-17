@@ -1,3 +1,4 @@
+
 .pmnt-makepmnt-btn-div {
 	margin-bottom: 5px;
 }
@@ -42,8 +43,10 @@
 	.pmnt-col-amnt-due {
 		text-align: left !important;
 	}
+	.pmnt-create-ach-error {
+		margin-bottom: 10px;
+	}	
 }
-
 .pmnt-specific-dates {
 	border: $border-width $border-style $success-bg !important;
 }
@@ -52,3 +55,4 @@ tr.mp-disabled-row td {
     background-color: $disbaled-bg !important;
     color: $disbaled-font-color;
 }
+

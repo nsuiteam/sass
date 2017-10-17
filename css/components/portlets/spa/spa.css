@@ -1,3 +1,8 @@
+@media (min-width: 980px){
+	button.ui-datepicker-trigger.ui-button {
+    top: 0px !important;
+}
+}
 .center-align {
 	text-align: center;
 }

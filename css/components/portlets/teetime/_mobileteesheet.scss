@@ -705,9 +705,10 @@
 	margin-top: 10px;
 }
 .btn-uselastplay {
-	background-color: #C7D29C !important;
+	background-color: $color-primary !important;
 	font-size: 12px;
 	text-transform: uppercase;
+	color: $Light-fontColor !important;
 }
 .uselastplay-area {
 	text-align: right;
